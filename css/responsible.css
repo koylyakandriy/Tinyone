@@ -1,0 +1,79 @@
+ @media screen and (max-width: 992px){
+	.header .logo{
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 70px;
+	}
+
+	.header .offer{
+		text-align: center;
+		margin-top: 90px;
+	}
+
+	.header .offer__text{
+		margin: 0 auto;
+	}
+	.header .icons{
+		justify-content: center;
+	}
+
+	.touch .form .form__input{
+		margin-right: 0;
+		width: 100%;
+	} 
+	.touch .form .form__btn{
+		margin-top: 20px;
+		width: 100%;
+	} 
+	.footer{
+		padding: 30px 0 30px;
+	}
+} 
+
+@media screen and (max-width: 768px){
+	.features .title .title__text{
+		width: 100%;
+	}
+	.touch .title .title__text{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.header .menu {
+    display: block!important;
+	}
+	.header .logo{
+		margin-bottom: 45px;
+	}
+	.header .offer{
+		margin-top: 50px;
+	}
+	.header .offer .offer__text{
+		width: 100%;
+	}
+	.header .ipad{
+		width: 100%;
+	}
+	.header .menu .menu__item{
+		margin-left: 0;
+		text-align: center;
+		margin-bottom: 15px; 
+	}
+	.features .title .title__text{
+		width: 100%;
+	}
+	.touch .title .title__text{
+		width: 100%;
+	}
+	.features .feature{
+		margin-bottom: 20px;
+	}
+	.features .feature .feature__icon{
+		width: 100%;
+		margin-right: 0;
+	}
+	.header .offer .icons .icons__item a:hover{
+		font-size: 2.625em;
+	}
+}
